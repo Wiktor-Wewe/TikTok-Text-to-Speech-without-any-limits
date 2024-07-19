@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TikTokTtsAPI": {
+      "commandName": "Project",
+      "commandLineArgs": "\"In a village surrounded by forests, Ethan met Ollie, a wise owl who lived alone. Ethan asked why Ollie chose solitude. Ollie explained that true companionship isn't about numbers but depth. Ethan learned to cherish connections, not just company. Together, they found solace in each other's presence, teaching Ethan that true companionship is found in meaningful connections, not just in the presence of others.\" \"en_us_006\" ./test"
+    }
+  }
+}
