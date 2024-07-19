@@ -9,7 +9,12 @@ namespace HttpClientExample
             if(args.Length != 3)
             {
                 Console.WriteLine("Usage: TikTokTtsAPI *text* *voice* *output_path*");
-                return - 1;
+                Console.WriteLine("\nList of voices: \n");
+                foreach(var voiceName in Enum.GetNames(typeof(TikTokVoiceCodes)))
+                {
+                    Console.Write($"[{voiceName}] ");
+                }
+                return -1;
             }
 
             string text = args[0];
